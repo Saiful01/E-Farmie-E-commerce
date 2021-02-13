@@ -226,7 +226,7 @@
                         <div class="single-product-area mb-50">
 
                             <div class="product-thumbnail">
-                                <img src="/images/product/{{$item->featured_image}}" alt="">
+                                <img src="/images/product/{{$item->featured_image}}" alt="" >
 
                                 <span class="product-tags">Hot Sale</span>
 
@@ -243,10 +243,10 @@
                             <div class="product-desc text-center pt-4">
                                 <a href="#" class="product-title text-success">{{$item->product_name}}</a>
                                 <h6 class="price">{{$item->regular_price}} Tk</h6>
-                                {{--  <button type="button" class="btn btn-sm btn-danger btn-outline-success btn-block"
+                                  <button type="button" class="btn btn-sm btn-danger btn-outline-success btn-block"
                                           ng-click="addToCartFromDetailsPage('{{$item->product_id}}','{{$item->product_name}}','{{$item->featured_image}}','{{$item->selling_price}}')">
                                       <i class="fa fa-shopping-cart"></i> কার্টে যুক্ত করুন
-                                  </button>--}}
+                                  </button>
                             </div>
                         </div>
                     </div>
